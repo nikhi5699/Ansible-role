@@ -1,0 +1,6 @@
+# tasks file for bittu
+
+- name: tasks to be done by role-bittu
+  service:
+    name: nginx
+    state: stopped
